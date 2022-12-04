@@ -521,16 +521,12 @@ video {
   margin-top: 2.5rem;
 }
 
-.ml-3 {
-  margin-left: 0.75rem;
-}
-
 .mt-7 {
   margin-top: 1.75rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
+.ml-3 {
+  margin-left: 0.75rem;
 }
 
 .mt-3 {
@@ -541,32 +537,12 @@ video {
   margin-top: 5rem;
 }
 
-.ml-5 {
-  margin-left: 1.25rem;
-}
-
 .ml-6 {
   margin-left: 1.5rem;
 }
 
-.ml-10 {
-  margin-left: 2.5rem;
-}
-
 .ml-12 {
   margin-left: 3rem;
-}
-
-.ml-1 {
-  margin-left: 0.25rem;
-}
-
-.ml-14 {
-  margin-left: 3.5rem;
-}
-
-.ml-2 {
-  margin-left: 0.5rem;
 }
 
 .block {
@@ -577,40 +553,8 @@ video {
   display: flex;
 }
 
-.grid {
-  display: grid;
-}
-
-.w-3\/4 {
-  width: 75%;
-}
-
-.w-12 {
-  width: 3rem;
-}
-
 .w-10 {
   width: 2.5rem;
-}
-
-.w-11 {
-  width: 2.75rem;
-}
-
-.w-1 {
-  width: 0.25rem;
-}
-
-.border-spacing-1 {
-  --tw-border-spacing-x: 0.25rem;
-  --tw-border-spacing-y: 0.25rem;
-  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
-}
-
-.border-spacing-3 {
-  --tw-border-spacing-x: 0.75rem;
-  --tw-border-spacing-y: 0.75rem;
-  border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
 }
 
 .grid-cols-8 {
@@ -635,10 +579,6 @@ video {
 
 .border {
   border-width: 1px;
-}
-
-.border-b {
-  border-bottom-width: 1px;
 }
 
 .border-b-2 {
@@ -679,11 +619,6 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
 .py-24 {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -707,21 +642,6 @@ video {
 .px-7 {
   padding-left: 1.75rem;
   padding-right: 1.75rem;
-}
-
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .py-1 {
@@ -755,22 +675,18 @@ video {
   line-height: 1;
 }
 
-.font-bold {
-  font-weight: 700;
-}
-
 .font-semibold {
   font-weight: 600;
-}
-
-.text-orange-600 {
-  --tw-text-opacity: 1;
-  color: rgb(234 88 12 / var(--tw-text-opacity));
 }
 
 .text-text-c {
   --tw-text-opacity: 1;
   color: rgb(37 45 53 / var(--tw-text-opacity));
+}
+
+.text-orange-600 {
+  --tw-text-opacity: 1;
+  color: rgb(234 88 12 / var(--tw-text-opacity));
 }
 
 .text-orange-400 {
@@ -790,9 +706,5 @@ video {
 @media (min-width: 768px) {
   .md\:grid {
     display: grid;
-  }
-
-  .md\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
