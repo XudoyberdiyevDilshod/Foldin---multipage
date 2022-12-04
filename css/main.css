@@ -568,4 +568,26 @@ img {
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), radial-gradient(138.93% 500.94% at 0% -22.97%, rgba(1, 48, 94, 0.1) 0%, rgba(184, 136, 75, 0.1) 86.98%);
   -webkit-backdrop-filter: blur(15px);
           backdrop-filter: blur(15px);
+}
+
+@media only screen and (max-width: 576px) {
+  .product__title {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .product__wrap-title {
+    font-size: 24px;
+    line-height: 24px;
+    text-align: start;
+  }
+  .product__wrap-desc span {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .product__link {
+    display: none;
+  }
+  .product__wrap-bottom {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=main.css.map */
