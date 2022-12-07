@@ -1,0 +1,112 @@
+.product__inner {
+  padding: 40px 0 100px;
+}
+
+.product__title {
+  font-weight: 600;
+  margin: 0;
+  font-size: 60px;
+  line-height: 75px;
+  text-align: center;
+  color: #252d35;
+
+  span {
+    color: #b8884b;
+  }
+}
+
+.product__content {
+  width: 90%;
+  padding: 10px;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: rgba(241, 245, 248, 0.8);
+  backdrop-filter: blur(15px);
+}
+
+.product__link {
+  opacity: 0.2;
+  padding: 18px;
+  border: 2px solid #252d35;
+}
+
+.product__wrap-title {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 24px;
+  color: #252d35;
+}
+
+.product__wrap-desc {
+  margin: 0;
+  span {
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #252d35;
+  }
+}
+
+.product__content-mini {
+  width: 90%;
+  padding: 10px;
+  bottom: 5px;
+  top: 5px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.product__line {
+  width: 100%;
+  padding: 10px;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    radial-gradient(
+        138.93% 500.94% at 0% -22.97%,
+        rgba(1, 48, 94, 0.1) 0%,
+        rgba(184, 136, 75, 0.1) 86.98%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  backdrop-filter: blur(15px);
+}
+
+@media only screen and (max-width: 576px) {
+  .product__title {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .product__wrap-title {
+    font-size: 24px;
+    line-height: 24px;
+    text-align: start;
+  }
+
+  .product__wrap-desc {
+    span {
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
+
+  .product__link {
+    display: none;
+  }
+
+  .product__wrap-bottom {
+    flex-direction: column;
+    
+  }
+}
