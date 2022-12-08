@@ -1644,7 +1644,7 @@ form input:not(:last-child) {
 
 .product__sten {
   position: absolute;
-  bottom: 200px;
+  bottom: 100px;
   left: 150px;
   padding: 35px 40px 40px 40px;
   width: 100%;
@@ -1751,7 +1751,7 @@ form input:not(:last-child) {
 }
 
 .table__body {
-  background: #B8884B !important;
+  background: #b8884b !important;
   color: #fff !important;
 }
 
