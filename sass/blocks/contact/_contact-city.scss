@@ -1,0 +1,152 @@
+.contact-city {
+  padding: 160px 0;
+}
+
+.div {
+  display: flex;
+  justify-content: space-between;
+}
+.div1-box1 {
+  width: 100%;
+  max-width: 740px;
+  padding: 20px;
+  background: #B8884B;
+}
+
+.div1-box1__title {
+  margin: 0;
+  margin-bottom: 5px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  display: flex;
+  align-items: center;
+  color: #F1F5F8;
+}
+
+.div1-box1__text {
+  margin: 0;
+  font-family: 'Gilroy';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #F1F5F8;
+}
+
+.div1-box1__tel {
+  margin: 0;
+  margin-left: 115px;
+  font-family: 'Gilroy';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #F1F5F8;
+}
+
+.div1-box2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.div1-box2__inner {
+  display: flex;
+  // align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 740px;
+}
+
+.div1-box2__left {
+  width: 100%;
+  max-width: 426px;
+}
+
+.div1-box2-left {}
+
+.div1-box2-left__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.div1-box2-left__item {
+  padding: 20px;
+}
+
+.div1-box2-left-item:nth-child(odd) {
+  background-color: #EBEEF0;
+}
+
+.div1-box2-left-item:nth-child(even) {
+  background-color: #F5F8FA;
+}
+
+.div1-box2-left-item__title {
+  margin: 0;
+  margin-bottom: 4px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #252D35;
+}
+
+.div1-box2-left-item__text {
+  margin: 0;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #252D35;
+  opacity: 0.5;
+}
+
+
+.div1-box2-right {
+  width: 100%;
+  max-width: 294px;
+}
+
+.div1-box2-right__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.div1-box2-right-item {
+  padding: 32px 20px 31px;
+}
+
+.div1-box2-right-item:nth-child(odd) {
+  background-color: #EBEEF0;
+}
+
+.div1-box2-right-item:nth-child(even) {
+  background-color: #F5F8FA;
+}
+
+.div1-box2-right-item__email {
+  margin: 0;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #252D35;
+}
+
+@media only screen and (max-width:576px) {
+  .div{
+    flex-wrap: wrap;
+  }
+  .div1-box1__tel{
+    margin-left: 0;
+  }
+}
