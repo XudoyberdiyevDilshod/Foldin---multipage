@@ -1854,4 +1854,188 @@ img {
   line-height: 20px;
   text-align: right;
   color: #252D35;
+}
+
+.feedback-prodect__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.feedback-prodect-item {
+  width: 100%;
+  max-width: 740px;
+  padding: 20px;
+  background: #F1F5F8;
+}
+
+.item-box {
+  display: flex;
+  align-items: center;
+}
+
+.item-box__content {
+  margin-left: 20px;
+}
+
+.img-wrapper {
+  padding: 20px;
+}
+
+.item-box__title {
+  margin: 0;
+  margin-bottom: 5px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #252D35;
+}
+
+.item-box__city {
+  margin: 0;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #252D35;
+  opacity: 0.5;
+}
+
+.feedback-prodect-item__text {
+  margin: 0;
+  margin-top: 22px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #252D35;
+}
+
+.show {
+  display: block;
+  width: 100%;
+  max-width: 248px;
+  margin: 40px auto 100px;
+  padding: 15px 30px;
+  border: 2px solid #B8884B;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #B8884B;
+}
+
+.show::after {
+  display: inline-block;
+  margin: auto 0;
+  margin-left: 6px;
+  width: 100%;
+  max-width: 20px;
+  height: 12px;
+  content: "";
+  background-image: url("../../../images/contact/strelka.png");
+  background-repeat: no-repeat;
+}
+
+.yandex {
+  margin-bottom: 100px;
+  padding: 60px 0;
+  background-image: url("../../../images/contact/yandex.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.yandex__title {
+  margin: 0;
+  font-family: "Gilroy";
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 55px;
+  color: #252D35;
+}
+
+.yandex__span {
+  color: #E73203;
+}
+
+.yandex__text {
+  margin: 0;
+  margin: 15px 0 20px;
+  width: 100%;
+  max-width: 768px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #252D35;
+}
+
+.yandex__btn {
+  padding: 15px 30px;
+  border: 2px solid #252D35;
+  background-color: transparent;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #252D35;
+}
+
+@media only screen and (max-width: 576px) {
+  .feedback-prodect__list {
+    gap: 20px;
+  }
+  .feedback-prodect-item {
+    padding: 15px;
+  }
+  .feedback-prodect-item__text {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .item-box__content {
+    margin-left: 10px;
+  }
+  .img-wrapper {
+    padding: 12px;
+  }
+  .person {
+    width: 100%;
+    max-width: 36px;
+    height: 36px;
+  }
+  .item-box__title {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .item-box__city {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .document {
+    width: 100%;
+    max-width: 42px;
+    height: 60px;
+  }
+  .yandex__title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .yandex__text {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .yandex__btn {
+    font-size: 14px;
+    line-height: 17px;
+  }
 }/*# sourceMappingURL=main.css.map */
