@@ -1,0 +1,71 @@
+.vacancy-city {
+  padding: 160px 0;
+}
+
+.vacancy-city__inner {}
+
+.vacancy-city__title {
+  margin: 0;
+  margin-bottom: 40px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 75px;
+  text-align: center;
+  color: #252D35;
+}
+
+
+.vacancy-city__list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.vacancy-city__item {
+  width: 100%;
+  max-width: 740px;
+  padding: 30px;
+  background: #F1F5F8;
+}
+
+
+.vacancy-city-item__title {
+  margin: 20px 0;
+  font-family: 'Gilroy';
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 44px;
+  color: #252D35;
+}
+
+.vacancy-city-item__sublist-title {
+  margin: 20px 0 10px;
+}
+
+.vacancy-city-item__sublist {
+  margin: 0;
+  padding-left: 25px;
+  list-style-type: disc;
+}
+
+.vacancy-city-item__sublist__item {
+  margin: 10px 0;
+}
+
+.vacancy-city-item__btn {
+  border: none;
+  background-color: transparent;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  color: #252D35;
+}

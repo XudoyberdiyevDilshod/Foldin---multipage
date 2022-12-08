@@ -1,0 +1,115 @@
+.contact-hero__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-hero-left__inner {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.b-wrapper {
+  width: 100%;
+  max-width: 350px;
+  margin-right: 40px;
+}
+
+.contact-hero__btn {
+  width: 100%;
+  margin-bottom: 40px;
+  padding: 15px 30px;
+  background: transparent;
+  border: 2px solid #252D35;
+  cursor: pointer;
+}
+.contact-hero__btn::after{
+  display: inline-block;
+  margin-left: 130px;
+  width: 17px;
+  height: 10px;
+  content: '';
+  background-image: url('../../../images/contact/strelka2.png');
+  background-repeat: no-repeat;
+}
+.contact-hero__btn:hover{
+  background:#EBEEF0;
+}
+.b-wrapper__box {
+  padding: 30px ;
+  background: #F1F5F8;
+}
+
+.office-addres-title,.office-tel-title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #252D35;
+  opacity: 0.5;
+}
+
+.office-addres-text {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #252D35;
+}
+
+.contact-hero-right {
+  width: 100%;
+  max-width: 350px;
+
+}
+.contact-hero-right1 {
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 47px;
+  
+}
+.contact-hero-right2 {
+  width: 100%;
+  max-width: 350px;  
+}
+@media only screen and (max-width:576px){
+  .contact-hero-left__inner{
+    display: block;
+  }
+
+  .b-wrapper{
+    margin: 0;
+  }
+
+  .contact-iframe{
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    margin-top: 40px;
+  }
+
+  .contact-hero-img{
+    display: none;
+  }
+
+  .contact-hero__inner {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-hero__btn::after{
+
+    margin-left: 90px;
+
+  }
+  
+
+
+}
