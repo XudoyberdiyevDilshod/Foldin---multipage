@@ -1,0 +1,162 @@
+//**************
+//***Divided room***//
+//*************
+.divided-room {
+  margin: 260px 0;
+}
+
+.divided-room__title {
+  text-align: center;
+}
+
+.divided-room__title h2 {
+  // Font styles
+  font-weight: 600;
+  font-size: 50px;
+
+  line-height: 65px;
+  text-align: center;
+  color: #252d35;
+}
+
+.divided-room__text {
+  margin: 0 auto;
+  width: 888px;
+
+  //   Font styles
+  font-weight: 500;
+  font-size: 15px;
+
+  line-height: 19px;
+  text-align: center;
+  color: #252d35;
+}
+
+.divided-room__inner {
+  display: flex;
+  justify-content: space-between;
+
+  //   Margin
+  margin: 100px 0 0 0;
+}
+
+.divided-room__box {
+  text-align: center;
+}
+
+.divided-room__box h3 {
+  display: block;
+  // Margin
+  margin: 0;
+
+  // Font styles
+  font-weight: 600;
+  font-size: 40px;
+
+  //   Custom styles
+  line-height: 61px;
+  color: #252d35;
+}
+
+.divided__span {
+  width: 120px;
+}
+
+.divided-room__box span {
+  // Font styles
+  font-weight: 500;
+  font-size: 15px;
+
+  //   Custom styles
+  line-height: 24px;
+  text-align: center;
+  color: #252d35;
+}
+
+.divided__1::before {
+  content: "";
+  width: 80px;
+  height: 80px;
+  background-image: url("../../../images/main-page/divided-room-pic-1.svg");
+  background-repeat: no-repeat;
+  display: block;
+
+  //   Margin
+  margin: 0 auto;
+  animation: rotate 3s linear infinite;
+}
+
+.divided__2::before {
+  content: "";
+  width: 80px;
+  height: 80px;
+  background-image: url("../../../images/main-page/divided-room-pic-2.svg");
+  background-repeat: no-repeat;
+  display: block;
+
+  //   Margin
+  margin: 0 auto;
+  animation: rotate 3s linear infinite;
+}
+
+.divided__3::before {
+  content: "";
+  width: 80px;
+  height: 80px;
+  background-image: url("../../../images/main-page/divided-room-pic-3.svg");
+  background-repeat: no-repeat;
+  display: block;
+
+  //   Margin
+  margin: 0 auto;
+  animation: rotate 3s linear infinite;
+}
+
+.divided__4::before {
+  content: "";
+  width: 80px;
+  height: 80px;
+  background-image: url("../../../images/main-page/divided-room-pic-4.svg");
+  background-repeat: no-repeat;
+  display: block;
+
+  //   Margin
+  margin: 0 auto;
+  animation: rotate 3s linear infinite;
+}
+
+.divided__5::before {
+  content: "";
+  width: 80px;
+  height: 80px;
+  background-image: url("../../../images/main-page/divided-room-pic-5.svg");
+  background-repeat: no-repeat;
+  display: block;
+
+  //   Margin
+  margin: 0 auto;
+  animation: rotate 3s linear infinite;
+}
+
+.divided__6::before {
+  content: "";
+  width: 80px;
+  height: 80px;
+  background-image: url("../../../images/main-page/divided-room-pic-6.svg");
+  background-repeat: no-repeat;
+  display: block;
+
+  //   Margin
+  margin: 0 auto;
+  animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}

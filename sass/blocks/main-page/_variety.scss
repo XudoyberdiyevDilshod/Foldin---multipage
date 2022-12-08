@@ -1,0 +1,83 @@
+//**************
+//***Variety***//
+//*************
+.variety__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-scrool {
+  margin-top: 50px;
+}
+
+.variety__boxes span {
+  color: #b8884b;
+}
+
+.variety__boxes h2 {
+  // Font styles
+  font-weight: 700;
+  font-size: 70px;
+
+  line-height: 75px;
+  color: #252d35;
+}
+
+.variety__boxes p {
+  // Font styles
+  font-weight: 500;
+  font-size: 14px;
+
+  //   Custom styles
+  line-height: 19px;
+  color: #252d35;
+}
+
+.variety__boxes a {
+  display: inline-block;
+  // Padding
+  padding: 15px 30px;
+
+  border: 2px solid #b8884b;
+  // Font styles
+  font-weight: 600;
+  font-size: 16px;
+
+  line-height: 20px;
+  background: #ffffff;
+  text-decoration: none;
+  color: #b8884b;
+
+  &:hover {
+    color: #b8884b !important;
+  }
+}
+
+.variety__boxes a {
+  display: inline-flex;
+}
+
+.variety__boxes a::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+
+  //   Margin
+  margin-left: 15px;
+
+  background-image: url(../../../images/main-page/variety-arrow.svg);
+  background-repeat: no-repeat;
+}
+
+.variety-paragr__inner {
+  width: 680px;
+}
+
+.variety-paragr__texts {
+  width: 466px;
+
+  //   Margin
+  margin: 30px 0;
+}

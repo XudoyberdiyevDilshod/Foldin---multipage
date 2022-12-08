@@ -1,0 +1,149 @@
+//**************
+//***Discount***//
+//*************
+.discount {
+  margin: 200px 0;
+}
+
+.dd {
+  position: absolute;
+  display: none;
+}
+
+.dd-show {
+  display: block;
+}
+
+.discount__inner {
+  // Padding
+  padding: 20px 20px 20px 20px;
+
+  background-image: url(../../../images/main-page/discount-pic.png),
+    url(../../../images/main-page/discunt-bg.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+.discount__boxes {
+  margin-left: auto;
+}
+
+.discount__boxes h2 {
+  // Margin
+  margin: 0;
+
+  // Font styles
+  font-weight: 600;
+  font-size: 50px;
+
+  line-height: 65px;
+  color: #252d35;
+}
+
+.discount__boxes p {
+  // Margin
+  margin: 30px 0 15px 0;
+
+  // Font styles
+  font-weight: 500;
+  font-size: 14px;
+
+  //   Custom styles
+  line-height: 19px;
+  color: #252d35;
+}
+
+.discount__boxes h3 {
+  // Margin
+  margin: 0;
+
+  //   Font styles
+  font-weight: 700;
+  font-size: 16px;
+
+  //   Custom styles
+  line-height: 20px;
+  color: #252d35;
+}
+
+.discount-sp {
+  width: 614px;
+}
+
+.discount-sp__span {
+  color: #b8884b;
+}
+
+.discount-sp__select::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+
+  //   Margin
+  margin-right: 10px;
+
+  background-image: url(../../../images/main-page/discount__bag.svg);
+  vertical-align: top;
+}
+
+.discount-sp__select {
+  display: inline-block;
+  // Margin,padding
+  margin-top: 30px;
+  margin-right: 20px;
+  padding: 15px 0 15px 10px;
+
+  max-width: 100%;
+  width: 220px;
+
+  // Font styles
+  font-weight: 600;
+  font-size: 16px;
+
+  //   Custom styles
+  line-height: 20px;
+  background: rgba(2, 2, 2, 0.1);
+  color: #252d35;
+  cursor: pointer;
+
+  &:hover {
+    background: rgba(100, 99, 99, 0.1);
+  }
+}
+
+.discount-sp__select::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+
+  //   Margin
+  margin-left: 50px;
+
+  background-image: url(../../../images/main-page/discount_bottom-arrow.svg);
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
+.discount__boxes a {
+  // Margin,padding
+  padding: 15px 18px;
+
+  background: linear-gradient(86.93deg, #b8884b 0%, #cc9c55 100%);
+  //   border: 2px solid rgba(241, 245, 248, 0.3);
+  box-shadow: 0px 8px 20px rgba(255, 153, 0, 0.35);
+  &:hover {
+    box-shadow: none;
+  }
+}
+
+.discount__boxes a::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url(../../../images/main-page/discount-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  display: inline-block;
+}
