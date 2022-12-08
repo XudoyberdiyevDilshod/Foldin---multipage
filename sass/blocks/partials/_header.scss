@@ -148,9 +148,64 @@
 //**************
 //***Lower header***//
 //*************
+.lower-header__inner {
+  display: flex;
+  justify-content: center;
+}
 
+.lower-header {
+  border: 1px solid #d3d5d7;
+}
 
+.navbar__list {
+  // Margin, paddings
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+
+  & .navbar__item {
+    list-style: none;
+  }
+  & .navbar__link {
+    // Font styles
+    font-weight: 500;
+    font-size: 16px;
+
+    // Custom values
+    line-height: 19px;
+    color: #252d35;
+    opacity: 0.7;
+    text-decoration: none;
+    &:hover {
+      color: #01305e;
+    }
+  }
+}
+
+.navbar__item:not(:last-child) {
+  margin-right: 40px;
+}
 
 //**************
 //***Lower header***//
 //*************
+@media only screen and (max-width: 375px) {
+  .navbar__list {
+    display: none;
+  }
+
+  .lower-header {
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .navbar__list {
+    display: none;
+  }
+
+  .lower-header {
+    border: none;
+  }
+}

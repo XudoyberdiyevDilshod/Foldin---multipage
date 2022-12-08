@@ -1,0 +1,160 @@
+//**************
+//***Hero***//
+//*************
+.hero {
+  margin: 138px 0;
+}
+
+.hero__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__box {
+  width: 620px;
+}
+
+.hero__box span {
+  color: #b8884b;
+}
+
+.hero__box h2 {
+  // Margins
+  margin: 0;
+
+  //   Font styles
+  font-weight: 700;
+  font-size: 60px;
+
+  line-height: 75px;
+  color: #252d35;
+}
+
+.hero__lists {
+  // Margin, paddings
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.hero__lists li::before {
+  content: "";
+
+  //   Margins
+  margin-right: 10px;
+
+  width: 6px;
+  height: 6px;
+  display: inline-block;
+  background-color: #b8884b;
+}
+
+.hero__lists li {
+  // Font styles
+  font-weight: 500;
+  font-size: 16px;
+
+  line-height: 29px;
+  color: #252d35;
+  list-style: none;
+}
+
+.hero__link {
+  // Padding
+  padding: 15px 30px;
+
+  border: 2px solid #b8884b;
+  // Font styles
+  font-weight: 600;
+  font-size: 16px;
+
+  line-height: 20px;
+  background: #ffffff;
+  text-decoration: none;
+  color: #b8884b;
+
+  &:hover {
+    color: #b8884b !important;
+  }
+}
+
+.hero__plusminus {
+  font-size: 24px;
+}
+
+.hero__gallery {
+  display: flex;
+}
+
+.column img {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.hero__last {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+//**************
+//***Hero***//
+//*************
+
+//**************
+//***Hero lower***//
+//*************
+.lower__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lower__position {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+
+  //   Paddings
+  padding: 15px 15px;
+
+  background: rgba(241, 245, 248, 0.8);
+  backdrop-filter: blur(15px);
+}
+
+.lower__item h3 {
+  // Font styles
+  font-weight: 600;
+  font-size: 18px;
+
+  line-height: 24px;
+  color: #252d35;
+}
+
+.lower__item span {
+  // Font styles
+  font-weight: 500;
+  font-size: 13px;
+
+  line-height: 19px;
+  color: #252d35;
+}
+
+.lower__box {
+  position: relative;
+}
+
+.lower__btn {
+  display: inline-block;
+  padding-left: 120px;
+}
+
+.lower__btn a {
+  display: inline-block;
+  padding: 7px;
+  border: 2px solid #c3c3c1;
+}
+
+//**************
+//***Hero lower***//
+//*************
