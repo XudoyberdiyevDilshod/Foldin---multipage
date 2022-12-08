@@ -1769,6 +1769,31 @@ form input:not(:last-child) {
   overflow: scroll;
 }
 
+.sertificate {
+  padding: 100px 0;
+  background: #f1f5f8;
+}
+
+.sertificate__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sertificate__content {
+  width: 100%;
+  max-width: 387px;
+}
+
+.sertificate__line {
+  width: 501px;
+  display: block;
+  margin-top: 20px;
+  margin-left: 130px;
+  height: 6px;
+  background: #01305e;
+}
+
 .mechanism {
   margin-top: 160px;
   padding: 125px 0;
