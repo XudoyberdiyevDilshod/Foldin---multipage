@@ -1185,4 +1185,465 @@ img {
   line-height: 20px;
   text-align: right;
   color: #b8884b;
+}
+
+.contact-hero__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-hero-left__inner {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.b-wrapper {
+  width: 100%;
+  max-width: 350px;
+  margin-right: 40px;
+}
+
+.contact-hero__btn {
+  width: 100%;
+  margin-bottom: 40px;
+  padding: 15px 30px;
+  background: transparent;
+  border: 2px solid #252D35;
+  cursor: pointer;
+}
+
+.contact-hero__btn::after {
+  display: inline-block;
+  margin-left: 130px;
+  width: 17px;
+  height: 10px;
+  content: "";
+  background-image: url("../../../images/contact/strelka2.png");
+  background-repeat: no-repeat;
+}
+
+.contact-hero__btn:hover {
+  background: #EBEEF0;
+}
+
+.b-wrapper__box {
+  padding: 30px;
+  background: #F1F5F8;
+}
+
+.office-addres-title, .office-tel-title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #252D35;
+  opacity: 0.5;
+}
+
+.office-addres-text {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #252D35;
+}
+
+.contact-hero-right {
+  width: 100%;
+  max-width: 350px;
+}
+
+.contact-hero-right1 {
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 47px;
+}
+
+.contact-hero-right2 {
+  width: 100%;
+  max-width: 350px;
+}
+
+@media only screen and (max-width: 576px) {
+  .contact-hero-left__inner {
+    display: block;
+  }
+  .b-wrapper {
+    margin: 0;
+  }
+  .contact-iframe {
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    margin-top: 40px;
+  }
+  .contact-hero-img {
+    display: none;
+  }
+  .contact-hero__inner {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-hero__btn::after {
+    margin-left: 90px;
+  }
+}
+.contact-city {
+  padding: 160px 0;
+}
+
+.div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div1-box1 {
+  width: 100%;
+  max-width: 740px;
+  padding: 20px;
+  background: #B8884B;
+}
+
+.div1-box1__title {
+  margin: 0;
+  margin-bottom: 5px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  display: flex;
+  align-items: center;
+  color: #F1F5F8;
+}
+
+.div1-box1__text {
+  margin: 0;
+  font-family: "Gilroy";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #F1F5F8;
+}
+
+.div1-box1__tel {
+  margin: 0;
+  margin-left: 115px;
+  font-family: "Gilroy";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #F1F5F8;
+}
+
+.div1-box2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.div1-box2__inner {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 740px;
+}
+
+.div1-box2__left {
+  width: 100%;
+  max-width: 426px;
+}
+
+.div1-box2-left__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.div1-box2-left__item {
+  padding: 20px;
+}
+
+.div1-box2-left-item:nth-child(odd) {
+  background-color: #EBEEF0;
+}
+
+.div1-box2-left-item:nth-child(even) {
+  background-color: #F5F8FA;
+}
+
+.div1-box2-left-item__title {
+  margin: 0;
+  margin-bottom: 4px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #252D35;
+}
+
+.div1-box2-left-item__text {
+  margin: 0;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #252D35;
+  opacity: 0.5;
+}
+
+.div1-box2-right {
+  width: 100%;
+  max-width: 294px;
+}
+
+.div1-box2-right__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.div1-box2-right-item {
+  padding: 32px 20px 31px;
+}
+
+.div1-box2-right-item:nth-child(odd) {
+  background-color: #EBEEF0;
+}
+
+.div1-box2-right-item:nth-child(even) {
+  background-color: #F5F8FA;
+}
+
+.div1-box2-right-item__email {
+  margin: 0;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #252D35;
+}
+
+@media only screen and (max-width: 576px) {
+  .div {
+    flex-wrap: wrap;
+  }
+  .div1-box1__tel {
+    margin-left: 0;
+  }
+}
+.control-form__span {
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  width: 15px;
+  height: 15px;
+  background: linear-gradient(86.93deg, #B8884B 0%, #CC9C55 100%);
+  border: 2px solid rgba(241, 245, 248, 0.3);
+}
+
+.contact-form__inner {
+  display: flex;
+  align-items: center;
+}
+
+.quvr-img {
+  position: relative;
+  margin-left: auto;
+}
+
+.contact-form__form {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  max-width: 564px;
+  padding: 50px 49px;
+  background: rgba(241, 245, 248, 0.8);
+  border: 1px solid rgba(37, 45, 53, 0.1);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+}
+
+.contact-form__title {
+  margin: 0;
+  margin-bottom: 30px;
+  margin-bottom: 20px;
+  font-family: "Gilroy";
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 65px;
+  color: #252D35;
+}
+
+.contact-form__text {
+  margin: 0;
+  margin-bottom: 30px;
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #252D35;
+}
+
+.label-name {
+  display: block;
+  width: 100%;
+  max-width: 260px;
+  margin-bottom: 15px;
+  padding: 15px 10px;
+  border: 2px solid #252D35;
+}
+
+.label-name::before {
+  display: inline-block;
+  content: "";
+  width: 100%;
+  max-width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-image: url("../../../images/contact/person-icon.svg");
+}
+
+.label-tel {
+  display: block;
+  width: 100%;
+  max-width: 260px;
+  margin-bottom: 15px;
+  padding: 15px 10px;
+  border: 2px solid #252D35;
+}
+
+.label-tel::before {
+  display: inline-block;
+  content: "";
+  width: 100%;
+  max-width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-image: url("../../../images/contact/tel-icon.svg");
+}
+
+.label-email {
+  display: block;
+  width: 100%;
+  max-width: 260px;
+  padding: 15px 10px;
+  border: 2px solid #252D35;
+}
+
+.label-email::before {
+  display: inline-block;
+  content: "";
+  width: 100%;
+  max-width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-image: url("../../../images/contact/message-icon.svg");
+  background-repeat: no-repeat;
+}
+
+.input-name {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.input-tel {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.input-email {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.control-form__span {
+  margin-right: 10px;
+}
+
+.control-form__span2 {
+  display: block;
+  width: 100%;
+  max-width: 218px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #252D35;
+  opacity: 0.5;
+}
+
+.w {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.control-form__btn {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  max-width: 260px;
+  padding: 15px 50px;
+  font-family: "Gilroy";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #F1F5F8;
+  background: linear-gradient(86.93deg, #B8884B 0%, #CC9C55 100%);
+  border: 2px solid rgba(241, 245, 248, 0.3);
+  box-shadow: 0px 8px 20px rgba(202, 154, 84, 0.35);
+}
+
+.control-form__btn:hover {
+  background: rgba(184, 136, 75, 0.5);
+  transition: all 0.5s ease;
+}
+
+.control-form__btn::after {
+  display: inline-block;
+  content: "";
+  width: 100%;
+  max-width: 12px;
+  height: 20px;
+  margin-left: 8px;
+  background-image: url("../../../images/contact/strelka3.png");
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 576px) {
+  .contact-form {
+    margin-top: 240px;
+  }
+  .contact-form__form {
+    max-width: 450px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .contact-form__title {
+    font-size: 50px;
+    line-height: 55px;
+  }
+  .quvr-img {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
