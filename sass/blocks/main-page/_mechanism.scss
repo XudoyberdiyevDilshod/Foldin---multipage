@@ -1,0 +1,61 @@
+.mechanism {
+  margin-top: 160px;
+  padding: 125px 0;
+  background: #f1f5f8;
+
+//   &::after {
+//     content: "";
+//     width: 263px;
+//     height: 231px;
+//     background-image: url('.../images/main-page/mechanism-2.png');
+//     position: absolute;
+//   }
+}
+
+.mechanism__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mechanism__content {
+  width: 100%;
+  max-width: 549px;
+}
+
+.mechanism__text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #b8884b;
+}
+
+.mechanism__desc {
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #252d35;
+}
+
+.mechanism__title {
+  margin: 10px 0 30px;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 65px;
+  color: #252d35;
+}
+
+.mechanism__link {
+  width: 100%;
+  max-width: 398px;
+  padding: 15px 30px;
+  background: #f1f5f8;
+  display: block;
+  border: 2px solid #b8884b;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #b8884b;
+  text-decoration: none;
+}
