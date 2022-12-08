@@ -1,0 +1,144 @@
+.vacancy-hero__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 94px;
+}
+
+
+.vacancy-hero__card {
+  width: 100;
+  max-width: 380px;
+  padding: 30px;
+}
+
+.vacancy-hero-card {
+  background: #F1F5F8;
+  backdrop-filter: blur(15px);
+}
+
+.vacancy-hero-card__title {
+  margin: 0;
+  margin-bottom: 12px;
+  font-family: 'Gilroy';
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  color: #252D35;
+
+}
+
+.vacancy-hero-card__text {
+  margin: 0;
+  font-family: 'Gilroy';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #252D35;
+
+}
+
+.vacancy-hero-center {
+  width: 100%;
+  max-width: 688px;
+}
+
+.vacancy-hero-center__title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-size: 69px;
+  line-height: 75px;
+  text-align: center;
+  color: #252D35;
+}
+
+.title-span {
+  color: #B8884B;
+}
+
+.vacancy-hero-center__text {
+  width: 100%;
+  max-width: 502px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #252D35;
+}
+
+.vacancy-hero-center__tel {
+  display: block;
+  margin-bottom: 20px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #B8884B;
+}
+
+.vacancy-hero-center__email {
+  display: block;
+  margin: 0 auto;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #B8884B;
+}
+
+.vacancy-hero-comandy{
+  padding: 100px 0;
+  background-image: url('../../../images/contact/vacancy-article.png');
+  background-repeat: no-repeat;
+  background-position: calc(50%);
+}
+
+.vacancy-hero-comandy__inner {
+  width: 100%;
+  max-width: 882px;
+  padding: 50px;
+  background: rgba(241, 245, 248, 0.8);
+  backdrop-filter: blur(15px);
+}
+
+.vacancy-hero-comandy__subtitle {
+  margin: 0;
+  font-family: 'Gilroy';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #B8884B;
+
+}
+
+.vacancy-hero-comandy__title {
+  margin: 10px 0 20px;
+  font-family: 'Gilroy';
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 65px;
+  color: #252D35;
+
+}
+
+.vacancy-hero-comandy__text {
+  margin: 0;
+  font-family: 'Gilroy';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #252D35;
+
+}
