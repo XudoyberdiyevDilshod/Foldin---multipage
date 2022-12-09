@@ -2186,6 +2186,7 @@ form input:not(:last-child) {
 .contact-form__inner {
   display: flex;
   align-items: center;
+  margin: 160px 0;
 }
 
 .quvr-img {
@@ -2227,7 +2228,7 @@ form input:not(:last-child) {
 }
 
 .label-name {
-  display: block;
+  display: inline-flex;
   width: 100%;
   max-width: 260px;
   margin-bottom: 15px;
@@ -2241,12 +2242,12 @@ form input:not(:last-child) {
   width: 100%;
   max-width: 20px;
   height: 20px;
-  margin-right: 5px;
+  margin: auto 0;
   background-image: url("../../../images/contact/person-icon.svg");
 }
 
 .label-tel {
-  display: block;
+  display: inline-flex;
   width: 100%;
   max-width: 260px;
   margin-bottom: 15px;
@@ -2260,12 +2261,12 @@ form input:not(:last-child) {
   width: 100%;
   max-width: 20px;
   height: 20px;
-  margin-right: 5px;
+  margin: auto 0;
   background-image: url("../../../images/contact/tel-icon.svg");
 }
 
 .label-email {
-  display: block;
+  display: inline-flex;
   width: 100%;
   max-width: 260px;
   padding: 15px 10px;
@@ -2278,7 +2279,7 @@ form input:not(:last-child) {
   width: 100%;
   max-width: 20px;
   height: 20px;
-  margin-right: 5px;
+  margin: auto 0;
   background-image: url("../../../images/contact/message-icon.svg");
   background-repeat: no-repeat;
 }
@@ -2581,6 +2582,47 @@ form input:not(:last-child) {
   line-height: 20px;
   text-align: right;
   color: #252D35;
+}
+
+.subnavbar {
+  padding: 20px 0 60px;
+}
+
+.subnavbar__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.subnavbar-item {
+  width: 100%;
+  max-width: 288px;
+  padding: 15px 0;
+  background: rgba(241, 245, 248, 0.8);
+  text-align: center;
+}
+.subnavbar-item:hover {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), radial-gradient(138.93% 500.94% at 0% -22.97%, rgba(1, 48, 94, 0.1) 0%, rgba(184, 136, 75, 0.1) 86.98%);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+}
+.subnavbar-item:hover .subnavbar__link {
+  color: #B8884B;
+}
+
+.subnavbar__link {
+  text-decoration: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #252D35;
+  opacity: 0.5;
 }
 
 .feedback-prodect__list {

@@ -11,6 +11,7 @@
 .contact-form__inner {
   display: flex;
   align-items: center;
+  margin: 160px 0;
 }
 
 .quvr-img {
@@ -51,7 +52,7 @@
 }
 
 .label-name {
-  display: block;
+  display: inline-flex;
   width: 100%;
   max-width: 260px;
   margin-bottom: 15px;
@@ -65,12 +66,12 @@
   width: 100%;
   max-width: 20px;
   height: 20px;
-  margin-right: 5px;
+  margin: auto 0;
   background-image: url('../../../images/contact/person-icon.svg');
 }
 
 .label-tel {
-  display: block;
+  display: inline-flex;
   width: 100%;
   max-width: 260px;
   margin-bottom: 15px;
@@ -84,13 +85,13 @@
   width: 100%;
   max-width: 20px;
   height: 20px;
-  margin-right: 5px;
+  margin: auto 0;
   background-image: url('../../../images/contact/tel-icon.svg');
 }
 
 
 .label-email {
-  display: block;
+  display: inline-flex;
   width: 100%;
   max-width: 260px;
   padding: 15px 10px;
@@ -103,7 +104,7 @@
   width: 100%;
   max-width: 20px;
   height: 20px;
-  margin-right: 5px;
+  margin: auto 0;
   background-image: url('../../../images/contact/message-icon.svg');
   background-repeat: no-repeat;
 }
